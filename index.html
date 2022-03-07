@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ac46427708.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="https://cdn140.picsart.com/311294504329211.png?type=webp&to=min&r=240">
+    <title>Stark Industries</title>
+</head>
+<body>
+    <header>
+        <div class="container flex">
+            <h1 class="logo">StarK Industries</h1>
+            <ul class="flex">
+                <li class="active"><a href="index.html">Shop</a></li>
+                <li><a href="cart.html">Cart <i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="availableitems">
+        <ul class="flex">
+            <li><a href="#laptops">Laptops</a></li>
+            <li><a href="#mobile">Mobile</a></li>
+            <li><a href="#head">Headphones</a></li>
+        </ul>
+    </div>
+
+    <a id="laptops"></a>
+    <section class="category laptop">
+        <div class="container">
+            <h1>Laptops:</h1>
+            <div class="flex">
+                <div class="card" id="1">
+                    <img src="https://m.media-amazon.com/images/I/71h6PpGaz9L._AC_SL1500_.jpg" alt="">
+                    <h2>HP EliteBook x360 (4SU65UT) Laptop</h2>
+                    <p class="price">Rs:148,999</p>
+                    <p><b>Product Features:</b><br>
+                    Intel Core i5 8th Gen <br>
+                    Quad Core, 1.6 GHz Clock Speed <br>
+                    8 GB DDR4 RAM <br>
+                    1 TB Hard Disk <br>
+                    256 GB SSD <br>
+                    2 GB Intel Graphics Card <br>
+                    13.3 inches, 1920 x 1080 pixels, Touch Screen <br>
+                    Windows 10 OS   
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="1" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="card" id="2">
+                    <img src="https://i.dell.com/is/image/DellContent//content/dam/global-asset-library/Products/Notebooks/Inspiron/14_5410_non-touch/in5410nt_cnb_00055lf110_gy_backlit.psd?fmt=pjpg&amp;pscan=auto&amp;scl=1&amp;hei=402&amp;wid=606&amp;qlt=100,0&amp;resMode=sharp2&amp;size=606,402" alt="">
+                    <h2>HP 15-di0002tu (8WN01PA) Laptop</h2>
+                    <p class="price">Rs:28,800</p>
+                    <p><b>Product Features:</b><br>
+                        Intel Core i3 7th Gen <br>
+                        Dual Core, 2.3 GHz Clock Speed <br>
+                        4 GB DDR4 RAM <br>
+                        1 TB Hard Disk <br>
+                        Integrated HD 620 <br>
+                        15.6 inches, 1920 x 1080 pixels <br>
+                        Windows 10 OS <br>
+                        1 Year Warranty
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="2" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="card" id="3">
+                    <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3zva0?ver=6261&q=90&m=8&h=431&w=767&b=%23FFFFFFFF&l=f&x=660&y=184&s=1460&d=821&aim=true" alt="">
+                    <h2>Asus ZenBook Flip 13 UX362FA Laptop</h2>
+                    <p class="price">Rs:53,000</p>
+                    <p><b>Product Features:</b><br>
+                        Intel Core i7 8th Gen 
+                        Quad Core <br>
+                        1.8 GHz Clock Speed <br>
+                        8 GB RAM <br>
+                        512 GB Hard Disk <br>
+                        Intel UHD Graphics 620 <br>
+                        13.3 inches, 1920 x 1080 pixels <br>
+                        Windows 10 OS <br>
+                        3 Year Warranty                        
+                        </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="3" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+    
+            <div class="flex">
+                <div class="card" id="4">
+                    <img src="https://cdn.pocket-lint.com/r/s/970x/assets/images/155087-laptops-review-microsoft-surface-laptop-go-review-image1-6ezitk9ymj.jpg" alt="">
+                    <h2>Acer Nitro AN515-54 (NH.Q5BSI.002) Laptop</h2>
+                    <p class="price">Rs:84,990</p>
+                    <p><b>Product Features:</b><br>
+                        Intel Core i7 9th Gen <br>
+                        Hexa Core, 2.6 GHz Clock Speed <br>
+                        8 GB DDR4 RAM <br>
+                        2 TB Hard Disk <br>
+                        256 GB SSD <br>
+                        6 GB NVIDIA Graphics Card <br>
+                        15.6 inches, 1920 x 1080 pixels <br>
+                        Windows 10 OS
+                   </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="4" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="card" id="5">
+                    <img src="https://www.gigabyte.com/FileUpload/Global/MainPage/4/innergigabyte/images/product/AORUS-VE.png" alt="">
+                    <h2>Asus ROG Strix G G731GT-AU041T Gaming Laptop</h2>
+                    <p class="price">Rs:75,890</p>
+                    <p><b>Product Features:</b><br>
+                        Intel Core i5 9th Gen<br>
+                        Quad Core, 2.4 GHz Clock Speed <br>
+                        8 GB RAM <br>
+                        512 GB SSD <br>
+                        4 GB NVIDIA Graphics Card <br>
+                        17.3 inches, 1920 x 1080 pixels <br>
+                        Windows 10 OS <br>
+                        1 Year Warranty                        
+                        </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="5" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="card" id="6">
+                    <img src="https://assets.newatlas.com/dims4/default/c1b93a0/2147483647/strip/true/crop/1620x1079+0+0/resize/728x485!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Faf%2Fd4%2F5661119a4878b368d2501e0c9d27%2Fzenbook-17-fold-oled-ux9702-versatile-modes.jpg" alt="">
+                    <h2>HP Pavilion x360 14-dh1026TX Laptop</h2>
+                    <p class="price">Rs:118,990</p>
+                    <p><b>Product Features:</b><br>
+                        Intel Core i7 10th Gen <br>
+                        Quad Core, 1.8 GHz Clock Speed <br>
+                        16 GB DDR4 RAM <br>
+                        512 GB SSD <br>
+                        2 GB NVIDIA Graphics Card <br>
+                        14 inches, 1920 x 1080 pixels, Touch Screen <br>
+                        Windows 10 OS <br>
+                        1 Year Warranty
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="6" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+    
+            <div class="flex">
+                <div class="card" id="7">
+                    <img src="https://fdn.gsmarena.com/imgroot/news/21/09/surface-laptops/-1200/gsmarena_001.jpg" alt="">
+                    <h2>Lenovo Ideapad S540 (81NE00AQIN) Laptop</h2>
+                    <p class="price">Rs:67,000</p>
+                    <p><b>Product Features:</b><br>
+                        Intel Core i5 8th Gen <br>
+                        Quad Core, 1.6 GHz Clock Speed <br>
+                        8 GB DDR4 RAM <br>
+                        512 GB SSD <br>
+                        2 GB NVIDIA Graphics Card <br>
+                        15.6 inches, 1920 x 1080 pixels <br>
+                        Windows 10 OS <br>
+                        1 Year Warranty
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="7" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="card" id="8">
+                    <img src="https://cdn.pocket-lint.com/r/s/1200x/assets/images/139149-laptops-news-buyer-s-guide-best-laptops-to-buy-image23-3y4ogcxpwl.jpg" alt="">
+                    <h2>HP Pavilion x360 14-dh1007TU Laptop</h2>
+                    <p class="price">Rs:50,666</p>
+                    <p><b>Product Features:</b><br>
+                        Intel Core i3 10th Gen <br>
+                        Dual Core, 2.1 GHz Clock Speed <br>
+                        4 GB DDR4 RAM <br>
+                        256 GB SSD <br>
+                        Intel Integrated UHD <br>
+                        14 inches, 1920 x 1080 pixels, Touch Screen <br>
+                        Windows 10 OS <br>
+                        1 Year Warranty 
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="8" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="card" id="9">
+                    <img src="https://www.lifewire.com/thmb/HyIymVrrV1UrCj1rVJrlnzxfUJs=/fit-in/1500x818/filters:no_upscale():max_bytes(150000):strip_icc()/ASUSROGZephyrusG14-be3ac59a08644a9cadffa9a5d65ba867.jpg" alt="">
+                    <h2>Lenovo Legion Y540 (81SY00C8IN) Gaming Laptop</h2>
+                    <p class="price">Rs:99,480</p>
+                    <p><b>Product Features:</b><br>
+                        Intel Core i7 9th Gen <br>
+                        Hexa Core, 2.6 GHz Clock Speed <br>
+                        16 GB RAM <br>
+                        1 TB Hard Disk <br>  
+                        4 GB Nvidia Graphics Card <br>
+                        15.6 inches, 1920 x 1080 pixels <br>
+                        Windows 10 OS <br>
+                        1 Year Warranty
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="9" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a id="mobile"></a>
+    <section class="category phone">
+        <div class="container">
+            <h1>Mobiles:</h1>
+            <div class="flex">
+                <div class="card" id="10">
+                    <img src="https://oxygendigitalshop.com/media/cache/1920x0/catalog/category/iphone_1622666076.webp" alt="">
+                    <h2>Realme 5i</h2>
+                    <p class="price">Rs:10,199</p>
+                    <p><b>Product Features:</b><br>
+                        Dual Sim, 3G, 4G, VoLTE, Wi-Fi <br>
+                        Snapdragon 665, Octa Core, 2 GHz Processor <br>
+                        4 GB RAM, 64 GB inbuilt <br>
+                        5000 mAh Battery <br>
+                        6.52 inches, 720 x 1600 px Display with Water Drop Notch <br>
+                        12 MP Quad Rear & 8 MP Front Camera <br>
+                        Memory Card Supported, upto 256 GB <br>
+                        Android v9.0 (Pie)
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="10" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="card" id="11">
+                    <img src="https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2021/03/Xiaomi-Mi-MIX-Fold-1024x773-1.jpg?resize=696%2C525&ssl=1" alt="">
+                    <h2>Xiaomi Mi Note 10 Pro</h2>
+                    <p class="price">Rs:39,199</p>
+                    <p><b>Product Features:</b><br>
+                        Dual Sim, 3G, 4G, VoLTE, Wi-Fi, NFC, IR Blaster <br>
+                        Snapdragon 730, Octa Core, 2.2 GHz Processor <br>
+                        8 GB RAM, 256 GB inbuilt <br>
+                        5260 mAh Battery with Fast Charging <br>
+                        6.47 inches, 1080 x 2340 px Display with Water Drop Notch <br>
+                        108 MP Penta Rear & 32 MP Front Camera <br>
+                        Android v9.0 (Pie) <br>
+                        Bluetooth                   
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="11" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="card" id="12">
+                    <img src="https://www.thestatesman.com/wp-content/uploads/2020/07/VIVO.jpg" alt="">
+                    <h2>Vivo X50 Pro 5G</h2>
+                    <p class="price">Rs:43,990</p>
+                    <p><b>Product Features:</b><br>
+                        Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, NFC <br>
+                        Snapdragon 765G, Octa Core, 2.4 GHz Processor <br>
+                        8 GB RAM, 256 GB inbuilt <br>
+                        4315 mAh Battery with Fast Charging <br>
+                        6.56 inches, 1080 x 2376 px, 90 Hz Display with Punch Hole <br>
+                        48 MP Quad Rear & 32 MP Front Camera <br>
+                        Memory Card Not Supported <br>
+                        Android v10
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="12" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+    
+            <div class="flex">
+                <div class="card" id="13">
+                    <img src="https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/oppo-a12.jpg" alt="">
+                    <h2>Huawei Nova 6</h2>
+                    <p class="price">Rs:42,444</p>
+                    <p><b>Product Features:</b><br>
+                        Dual Sim, 3G, 4G, VoLTE, Wi-Fi, NFC, IR Blaster <br>
+                        Kirin 990, Octa Core, 2.86 GHz Processor <br>
+                        8 GB RAM, 128 GB inbuilt <br>
+                        4100 mAh Battery with Fast Charging <br>
+                        6.57 inches, 1080 x 2400 px Display with Punch Hole <br>
+                        40 MP + 8 MP + 8 MP Triple Rear & 32 MP + 8 MP Dual Front Camera <br>
+                        Memory Card Not Supported <br>
+                        Android v10
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="13" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="card" id="14">
+                    <img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone13mini/2021-fall-iphone13-mini-colors.png" alt="">
+                    <h2>Apple iPhone 12 Pro Max</h2>
+                    <p class="price">Rs:115,900</p>
+                    <p><b>Product Features:</b><br>
+                        Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, NFC <br>
+                        Bionic A14, Hexa Core, 3.1 GHz Processor <br>
+                        6 GB RAM, 128 GB inbuilt <br>
+                        6.7 inches, 1284 x 2778 px Display with Large Notch <br>
+                        12 MP + 12 MP + 12 MP Triple Rear & 12 MP Front Camera <br>
+                        Memory Card Not Supported <br>
+                        iOS v14.0 <br>
+                        No FM Radio
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="14" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="card" id="15">
+                    <img src="https://www.financialexpress.com/wp-content/uploads/2021/02/nokia-new-phones.png" alt="">
+                    <h2>OnePlus 8 Pro</h2>
+                    <p class="price">Rs:54,999</p>
+                    <p><b>Product Features:</b><br>
+                        Dual Sim, 3G, 4G, 5G, VoLTE, Wi-Fi, NFC <br>
+                        Snapdragon 865, Octa Core, 2.84 GHz Processor <br>
+                        8 GB RAM, 128 GB inbuilt <br>
+                        4510 mAh Battery with Fast Charging <br>
+                        6.78 inches, 1440 x 3168 px, 120 Hz Display with Punch Hole <br>
+                        48 MP Quad Rear & 16 MP Front Camera <br>
+                        Memory Card Not Supported <br>
+                        Android v10.0
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="15" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a id="head"></a>
+    <section class="category hphone">
+        <div class="container">
+            <h1>Headphones:</h1>
+            <div class="flex">
+                <div class="card" id="16">
+                    <img src="https://m.media-amazon.com/images/I/51xxA+6E+xL._SL1500_.jpg" alt="">
+                    <h2>boAt NIRVANAA 751ANC</h2>
+                    <p class="price">Rs:7,990</p>
+                    <p><b>Product Features:</b><br>
+                        Hybrid Active Noise Cancelling <br>
+                        Over-Ear Headphones <br>
+                        Up to 65H Playtime <br>
+                        ASAP™ Charge <br>
+                        Ambient Sound Mode <br> 
+                        Immersive Sound <br> 
+                        Dual Compatibility <br> 
+                        Carry Pouch(Gunmetal Grey) 
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="16" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="card" id="17">
+                    <img src="https://www.marshallheadphones.com/on/demandware.static/-/Sites-zs-master-catalog/default/dw6b782c73/images/marshall/headphones/major-iv/medium/cart-marshall-major-iv-black.png" alt="">
+                    <h2>Grado SR80e</h2>
+                    <p class="price">Rs:53,000</p>
+                    <p><b>Product Features:</b><br>
+                        4th generation Grado tuned 44mm drivers <br> 
+                        easy to drive <br> 
+                        38ohm Upgraded braided cable eliminates twisting and kinking <br> 
+                        4 conductor super annealed copper wiring <br>
+                        Upgraded adjustable padded headband made of synthetic, vegan-friendly material <br>
+                        4OurEars is the Exclusive Authorized Amazon seller <br>
+                        1 year manufacturers warranty
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="17" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="card" id="18">
+                    <img src="https://i5.walmartimages.com/asr/ae0aa244-5e17-42b9-bc85-a635051f7e5b_1.17429374d4e24f05434dae7aea298724.jpeg" alt="">
+                    <h2>Hungama HiLife Bounce 101</h2>
+                    <p class="price">Rs:1,449</p>
+                    <p><b>Product Features:</b><br>
+                        Each earbud can be used independently <br>
+                        Upto 30 hrs total playback time at 30-40% volume <br>
+                        Earbuds charge 100% in 1.5 hours
+                        IPX4 sweat resistance making this suitable for use during workout/sports/etc <br>
+                        Seamless connectivity with Bluetooth 5.0 with a range of 10 metres and compatible with Android/iOS <br>
+                        Voice control through Siri and Google assistant also available 
+                        
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="18" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+    
+            <div class="flex">
+                <div class="card" id="19">
+                    <img src="https://m.media-amazon.com/images/I/51-JsO-OCxL._SL1500_.jpg" alt="">
+                    <h2>Bowers & Wilkins PI3 Wireless</h2>
+                    <p class="price">Rs:24,999</p>
+                    <p><b>Product Features:</b><br>
+                        Use Bluetooth technology to make connecting easier for the user <br>
+                        Longer Battery life <br>
+                        38ohm Upgraded braided cable eliminates twisting and kinking <br> 
+                        4 conductor super annealed copper wiring <br>
+                        4OurEars is the Exclusive Authorized Amazon seller <br>
+                        1 year manufacturers warranty
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="19" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="card" id="20">
+                    <img src="https://www.game.co.za/medias/769171-EA-515x515.jpg?context=bWFzdGVyfGltYWdlc19vbmVjb218NDQyMzh8aW1hZ2UvanBlZ3xoMmQvaDRmLzg4ODUzNjcxNzcyNDYuanBnfGQ5ZDRmYmM5YWMwZDljYjRhYzcxNmFhMTM5Yzg3MWQ1ZGFlOTY3ZTdjMDA1NGQzZmRhZWVjZWZhYzA1NjA2YWY" alt="">
+                    <h2>Bowers & Wilkins P9 Signature</h2>
+                    <p class="price">Rs:39,000</p>
+                    <p><b>Product Features:</b><br>
+                        Bluetooth Connectivity <br>
+                        Colour: Space Grey <br>
+                        Adaptive Noise Cancelling <br>
+                        Over-Ear Headphones <br>
+                        Up to 65H Playtime <br>
+                        ASAP™ Charge <br>
+                        Ambient Sound Mode <br> 
+                        Immersive Sound <br> 
+                        Dual Compatibility
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="20" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="card" id="21">
+                    <img src="https://lonelybrand.com/wp-content/uploads/2018/04/gold-headphones.jpg" alt="">
+                    <h2>AKG K92</h2>
+                    <p class="price">Rs:53,000</p>
+                    <p><b>Product Features:</b><br>
+                        AKG pro audio k92 closed-back headphone <br>
+                        Professional 40mm drivers for extended 16hz - 20khz frequency response <br>
+                        Closed-back design maximizes isolation <br>
+                        Self-adjusting headband ensures perfect fit <br>
+                        Bluetooth connectivity <br>
+                        Long Battery Life <br>
+                        1 Year Warranty <br>
+                    </p>
+                    <button onclick='window.alert("Sever is offline please put item in cart, Sorry for the inconvience caused")'>Buy Now  <i class="fa fa-shopping-bag"></i></button>
+                    <button id="addToCart" value="21" onclick="cart(value)">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

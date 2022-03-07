@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Montserrat&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lavenderblush;
+}
+
+.flex{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header .flex{
+    justify-content: space-between;
+}
+
+header{
+    background-color: rgb(78, 0, 0);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+}
+
+header a{
+    color: inherit;
+}
+
+header li{
+    padding: 0 20px;
+    transition: 0.3s linear;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header li:hover{
+    background-color: #fff;
+    color: rgb(56, 1, 1);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+header .active{
+    background-color: #fff;
+    color: rgb(56, 1, 1);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.availableitems{
+    padding-top: 100px;
+}
+
+.availableitems a{
+    color: rgb(56, 1, 1);
+    transition: 0.3s linear;
+}
+
+
+.availableitems li{
+    padding: 5px 20px;
+    border: 2px solid rgb(56, 1, 1);
+    transition: 0.3s linear;
+}
+.availableitems li:first-child{
+    border-radius: 15px 0 0 15px;
+}
+
+.availableitems li:last-child{
+    border-radius: 0 15px 15px 0;
+}
+
+.availableitems li:hover,
+.availableitems a:hover{
+    color: #fff;
+    background-color: rgb(78, 0, 0);
+    font-weight: bold;
+}
+
+.category{
+    margin-bottom: 50px;
+    padding-top: 60px;
+}
+
+.category h1{
+    font-size: 50px;
+}
+
+.card{
+    width: 400px;
+    background-color: #fff;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px lightgrey;
+}
+
+.laptop .card{
+    height: 629px;
+}
+
+.phone .card{
+    height: 709px;
+}
+
+.hphone .card{
+    height: 715px;
+}
+
+
+img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.card p{
+    font-size: 18px;
+    font-family: 'League Spartan', sans-serif;
+    text-align: left;
+    padding: 0 30px;
+}
+
+.card .price{
+    font-size: 25px;
+}
+
+button{
+    border: none;
+    background: none;
+    background-color: darkred;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: crimson;
+}
+
+table{
+   height: 70px; 
+   margin: 10px;
+   padding: 20px;
+   width: 100%;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    border-bottom: 2px dashed rgb(78, 0, 0);
+}
+
+table tr img{
+    width: 80px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+table tr h2{
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+table tr button{
+    margin: 30px 20px;
+    padding: 8px 30px;
+}
+
+table tr td .price{
+    font-size: 25px;
+    padding: 7px 20px;
+    font-weight: bold;
+}
+
+.fle{
+    text-align: left;
+    display: flex;
+}
+
+.checkout label{
+    
+    font-size: 40px;
+}
+
+.checkout p{
+    outline: none;
+    background:none;
+    border: none;
+    background-color: rgb(255, 194, 194);
+    padding: 8px 10px;
+    font-size: 28px;
+    color: grey;
+    width: 20%;
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+
+.checkout button{
+    width: 20%;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 20px;
+}
